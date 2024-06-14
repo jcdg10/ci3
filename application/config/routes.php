@@ -10,7 +10,9 @@ $route['abouts'] = 'Welcome/demo';
 $route['employee'] = 'Employee/EmployeeController/index';
 $route['employee/add'] = 'Employee/EmployeeController/create';
 $route['employee/store'] = 'Employee/EmployeeController/store';
-
+$route['employee/edit/(:any)'] = 'Employee/EmployeeController/edit/$1';
+$route['employee/update/(:any)'] = 'Employee/EmployeeController/update/$1';
+$route['employee/delete/(:any)'] = 'Employee/EmployeeController/delete/$1';
 /*
 | -------------------------------------------------------------------------
 | URI ROUTING
