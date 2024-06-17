@@ -13,6 +13,10 @@ $route['employee/store'] = 'Employee/EmployeeController/store';
 $route['employee/edit/(:any)'] = 'Employee/EmployeeController/edit/$1';
 $route['employee/update/(:any)'] = 'Employee/EmployeeController/update/$1';
 $route['employee/delete/(:any)'] = 'Employee/EmployeeController/delete/$1';
+
+
+$route['vue'] = 'VueController/index';
+$route['vue2'] = 'VueController/vue2';
 /*
 | -------------------------------------------------------------------------
 | URI ROUTING
